@@ -1,0 +1,115 @@
+
+2024-04-30 23:30:43 User admin has logged in
+2024-04-30 23:32:50 User admin has logged in
+2024-04-30 23:46:38 User admin has logged in
+2024-04-30 23:46:43 User admin tried to open Uzykownicy function
+2024-04-30 23:46:44 User admin tried to open Uzykownicy function
+2024-04-30 23:46:45 User admin tried to open Uzykownicy function
+2024-04-30 23:46:45 User admin tried to open Uzykownicy function
+2024-04-30 23:46:45 User admin tried to open Uzykownicy function
+2024-04-30 23:46:46 User admin tried to open Uzykownicy function
+2024-04-30 23:46:47 User admin tried to open Uzykownicy function
+2024-04-30 23:47:04 User admin tried to open Uzykownicy function
+2024-05-02 13:55:41 User admin failed login attempt
+2024-05-02 13:55:45 User admin failed login attempt
+2024-05-02 13:55:51 User  failed login attempt
+2024-05-02 14:17:00 User admin has logged in
+2024-05-02 14:24:39 New invoice has been added successfully by admin
+2024-05-02 14:27:04 New invoice has been added successfully by None
+2024-05-02 14:27:27 New invoice has been added successfully by None
+2024-05-02 14:29:16 User admin has logged in
+2024-05-02 14:29:29 New invoice has been added successfully by admin
+2024-05-02 14:30:05 New invoice has been added successfully by admin
+2024-05-02 15:19:15 New invoice has been added successfully by admin
+2024-05-02 15:23:32 User admin tried to open Uzykownicy function
+2024-05-02 15:23:39 User admin tried to open Uzykownicy function
+2024-05-02 15:23:40 User admin tried to open Uzykownicy function
+2024-05-02 15:23:41 User admin logged out
+2024-05-02 15:23:44 User admin has logged in
+2024-05-02 15:23:47 User admin tried to open Uzykownicy function
+2024-05-02 15:52:58 User admin tried to open Uzykownicy function
+2024-05-02 15:53:03 User admin tried to open Uzykownicy function
+2024-05-02 15:53:44 User admin tried to open Uzykownicy function
+2024-05-02 15:53:45 User admin logged out
+2024-05-02 15:53:54 User admin has logged in
+2024-05-02 15:53:56 User admin tried to open Uzykownicy function
+2024-05-02 15:54:47 User admin has logged in
+2024-05-02 15:54:49 User admin tried to open Uzykownicy function
+2024-05-02 15:57:44 User admin has logged in
+2024-05-02 15:59:02 User admin has logged in
+2024-05-02 16:02:06 User admin has logged in
+2024-05-02 16:02:20 User user has been added successfully by admin
+2024-05-02 16:02:35 User admin logged out
+2024-05-02 16:02:39 User user has logged in
+2024-05-02 16:04:57 User admin has logged in
+2024-05-02 16:05:00 User admin tried to open Users function
+2024-05-02 16:05:42 User admin has logged in
+2024-05-02 16:05:45 User admin tried to open Users function
+2024-05-02 16:06:26 User admin has logged in
+2024-05-02 16:06:28 User admin tried to open Users function
+2024-05-02 16:10:00 User admin has logged in
+2024-05-02 16:10:02 User admin tried to open Users function
+2024-05-02 16:10:27 User admin has logged in
+2024-05-02 16:10:29 User admin    tried to open Users function
+2024-05-02 16:19:42 User None logged out
+2024-05-02 16:19:45 User admin has logged in
+2024-05-02 16:20:02 User user has been added successfully by admin
+2024-05-02 16:20:16 User admin logged out
+2024-05-02 16:20:19 User user has logged in
+2024-05-02 16:21:14 User user logged out
+2024-05-05 17:38:09 User admin has logged in
+2024-05-05 17:54:39 New invoice has been added successfully by admin
+2024-05-05 18:03:42 User admin has logged in
+2024-05-05 18:22:39 User admin has logged in
+2024-05-05 18:23:28 User admin has logged in
+2024-05-05 18:24:38 New invoice has been added successfully by None
+2024-05-05 18:25:04 New invoice has been added successfully by None
+2024-05-05 18:33:36 New invoice has been added successfully by None
+2024-05-05 18:34:05 User None logged out
+2024-05-05 18:34:09 User admin has logged in
+2024-05-05 19:28:25 User admin has logged in
+2024-05-05 19:40:41 New invoice has been added successfully by None
+2024-05-05 20:04:57 User admin has logged in
+2024-05-05 20:07:17 User admin has logged in
+2024-05-05 20:07:47 User admin logged out
+2024-05-05 20:07:50 User hdfjdfj failed login attempt
+2024-05-05 20:08:04 User dsgdshs failed login attempt
+2024-05-05 20:10:11 User admin has logged in
+2024-05-10 11:54:07 User admin has logged in
+2024-05-10 12:05:00 New invoice has been added successfully by admin
+2024-05-10 13:01:20 User admin has logged in
+2024-05-10 13:27:07 User admin logged out
+2024-05-10 13:27:09 User admin has logged in
+2024-05-10 13:27:12 User admin logged out
+2024-05-10 13:27:15 User user has logged in
+2024-05-10 13:27:30 User user logged out
+2024-06-12 11:01:44 User admin has logged in
+2024-06-12 11:05:48 User admin logged out
+2024-06-12 11:05:50 User fredjfdjkg failed login attempt
+2024-06-12 11:06:11 User user failed login attempt
+2024-06-12 11:06:15 User user has logged in
+2024-06-12 11:06:21 User user logged out
+2024-06-12 11:06:38 User user has logged in
+2024-06-12 11:07:13 User user logged out
+2024-06-12 11:07:16 User admin has logged in
+2024-06-30 17:03:37 User admin has logged in
+2024-06-30 17:05:10 User None logged out
+2024-06-30 17:05:14 User admin has logged in
+2024-06-30 17:05:30 User user has been added successfully by admin
+2024-06-30 17:07:34 User admin logged out
+2024-06-30 17:07:43 User user has logged in
+2024-06-30 17:12:44 User user has logged in
+2024-06-30 17:14:57 User admin has logged in
+2024-06-30 18:00:05 User admin has logged in
+2024-07-05 13:45:42 User amdin failed login attempt
+2024-07-05 13:45:45 User admin has logged in
+2024-07-05 13:46:09 User None logged out
+2024-07-05 13:57:27 User admin has logged in
+2024-07-05 13:57:28 User admin logged out
+2024-07-05 13:57:31 User admin has logged in
+2024-07-05 13:58:25 User None logged out
+2024-07-05 13:58:28 User admin has logged in
+2024-07-05 13:58:48 User admin has logged in
+2024-07-05 13:58:58 User admin logged out
+2024-07-05 14:11:06 User admin has logged in
+2024-07-05 14:14:01 User Dawid has been added successfully by None

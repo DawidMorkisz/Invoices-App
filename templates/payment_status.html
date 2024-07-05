@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment Status Search Results</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Payment Status Search Results</h1>
+    <table>
+        <tr>
+            <th>Invoice Id</th>
+            <th>Invoice No.</th>
+            <th>Payment Date</th>
+            <th>Status</th>
+        </tr>
+        {% for status in statusy %}
+        <tr>
+            <td>{{ status[0] }}</td>
+            <td>{{ status[1] }}</td>
+            <td>{{ status[2] }}</td>
+            <td>{{ status[3] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
+``

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Results</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div style="display: flex; flex-direction: row;">
+    <h1>Search Results</h1>
+    <button style = "height: 40px; margin-left: auto; margin-top: 25px; margin-right: 10;"onclick="saveToJson()">Save to JSON</button>
+    <button style="height: 40px; margin-top: 25px; margin-left: 10px;" onclick="printPage()">Print Page</button>
+    </div>
+
+    <table>
+        <tr>
+            <th>Invoice Id</th>
+            <th>Invoice No.</th>
+            <th>Date</th>
+            <th>Client name</th>
+            <th>Amount</th>
+        </tr>
+        {% for invoice in invoices %}
+        <tr>
+            <td>{{ invoice[0] }}</td>
+            <td>{{ invoice[1] }}</td>
+            <td>{{ invoice[2] }}</td>
+            <td>{{ invoice[3] }}</td>
+            <td>{{ invoice[4] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    
+
+    <script>
+        function saveToJson() {
+
+            var tableRows = document.querySelectorAll('table tr');
+            var jsonData = [];
+
+            tableRows.forEach(function (row, index) {
+                if (index !== 0) {
+                    var columns = row.querySelectorAll('td');
+                    var invoiceData = {
+                        'Invoice Id': columns[0].innerText,
+                        'Invoice No.': columns[1].innerText,
+                        'Date': columns[2].innerText,
+                        'Client name': columns[3].innerText,
+                        'Amount': columns[4].innerText
+                    };
+                    jsonData.push(invoiceData);
+                }
+            });
+
+            var jsonString = JSON.stringify(jsonData, null, 2);
+
+            var blob = new Blob([jsonString], { type: 'application/json' });
+
+            var JSON_File = document.createElement('a');
+            JSON_File.href = window.URL.createObjectURL(blob);
+            JSON_File.download = 'invoices.json';
+
+            JSON_File.click();
+        }
+        function printPage() {
+            var htmlContent = document.documentElement.outerHTML;
+            var newWindow = window.open('', 'Print Window', 'width=800,height=600,scrollbars=yes,resizable=yes');
+            newWindow.document.write(htmlContent);
+            newWindow.document.close();
+            newWindow.print();
+        }
+    </script>
+</body>
+</html>

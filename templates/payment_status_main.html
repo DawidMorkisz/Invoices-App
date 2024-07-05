@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Add Payment Status</h1>
+    <form method="post" action="/add_payment_status">
+        <table>
+            <tr>
+                <td>Invoice No.:</td>
+                <td><input type="text" name="invoice_no"></td>
+            </tr>
+            <tr>
+                <td>Payment Date:</td>
+                <td><input type="date" name="payment_date"></td>
+            </tr>
+            <tr>
+                <td>Status:</td>
+                <td>
+                    <select name="status">
+                       <option value="Paid">Paid</option>
+                       <option value="Unpaid">Unpaid</option>
+                   </select>
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Add Status">
+    </form>
+    <br>
+    <h1>Show Payment Status</h1>
+    <form method="get" action="/search_payment_status">
+        Search for Payment Statuses:
+        <select name="status">
+            <option value="all">All</option>
+            <option value="Paid">Paid</option>
+            <option value="Unpaid">Unpaid</option>
+        </select>
+        <input type="submit" value="Search">
+    </form>
+</body>
+</html>

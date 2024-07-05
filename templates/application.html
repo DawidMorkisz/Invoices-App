@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Main Menu</title>
+</head>
+<body>
+    <h1> Welcome to the Invoice Management Application</h1>
+    <div>
+        <a href="/invoice_layout"><button>Invoices</button></a>
+        <a href="/payment_status_main"><button>Payment Status</button></a>
+        {% if 'username' in session and session['role'] != 'user ' %}
+            <a href="/users"><button>Users</button></a>
+        {% endif %}
+        <a href="/logout"><button>Log Out</button></a>
+    </div>
+    <!-- {% if error %}
+    <p style="color: red;">Access Denied</p>
+    {% endif %} -->
+</body>
+</html>

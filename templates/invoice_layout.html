@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Add Invoice</h1>
+    <form method="post" action="/add_invoice">
+        <table>
+         <tr>
+          <td>Invoice No.:</td>
+          <td><input type="text" name="invoice_no"></td>
+         </tr>
+         <tr>
+          <td>Client Name:</td>
+          <td><input type="text" name="client_name"></td>
+         </tr> 
+         <tr>
+          <td>Amount:</td> 
+          <td><input type="floatformat" name="amount"></td>
+         </tr> 
+         <tr>
+          <td>Date:</td> 
+          <td><input type="date" name="add_date"></td>
+         </tr>   
+        </table>
+        <input type="submit" value="Add Invoice">
+    </form>
+    {% if error %}
+    <p style="color: red;">Fill in all fields</p>
+    {% endif %}
+    <br>
+    <h1>Search for an invoice</h1>
+    <form id="searchForm">
+        Search by:
+        <select name="search_param" id="searchParam">
+            <option value="all">All</option>
+            <option value="search_by_date">Date</option>
+            <option value="search_by_client_name">Client Name</option>
+        </select>
+        <input type="text" name="value" id="searchValue">
+        <input type="button" value="Search" onclick="searchInvoices()">
+    </form>
+
+    <div id="searchResult"></div>
+
+    <script>
+        function searchInvoices() {
+            var searchParam = document.getElementById('searchParam').value;
+            var searchValue = document.getElementById('searchValue').value;
+            var searchUrl = '/search_invoices?search_param=' + encodeURIComponent(searchParam) + '&value=' + encodeURIComponent(searchValue);
+            window.open(searchUrl, '_blank');
+        }
+    
+        document.getElementById('searchParam').addEventListener('change', function() {
+            var searchParam = this.value;
+            var searchValueInput = document.getElementById('searchValue');
+            if (searchParam === 'search_by_date') {
+                searchValueInput.type = 'date';
+            } else {
+                searchValueInput.type = 'text';
+            }
+        });
+    </script>
+</body>
+</html>

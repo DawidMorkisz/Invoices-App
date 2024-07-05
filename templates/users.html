@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Add User</h1>
+    <form method="post" action="/add_user">
+     <table>
+        <tr>
+            <td>First Name:</td>
+            <td><input type="text" name="first_name"></td>
+        </tr>
+        <tr>
+            <td>Last Name: </td>
+            <td><input type="text" name="last_name"></td>
+        </tr>
+        <tr>
+            <td>Role:</td>
+            <td><select name="role">
+                <option value="admin">Admin</option>
+                <option value="user">User</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Login:</td>
+            <td><input type="text" name="login"></td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td><input type="password" name="password"></td>
+        </tr>
+     </table>
+        <input type="submit" value="Add User">
+     
+    </form>
+    {% if EmptyFieldError %}
+    <p style="color: red;">Fill in all fields</p>
+    {% endif %}
+
+    {% if UserExistError %}
+    <p style="color: red;">User already exist</p>
+    {% endif %}
+
+    {% if UserAddedSuccess %}
+    <p style="color: green;">User added successfully</p>
+    {% endif %}
+
+    <br>
+    <h1> Search for users</h1>
+    <form method="get" action="/search_users">
+        Search for users by role:
+        <select name="role">
+            <option value="all">All</option>
+            <option value="admin">Admin</option>
+            <option value="user">User</option>
+        </select>
+        <input type="submit" value="Search">
+    </form>
+</body>
+</html>
